@@ -9,4 +9,4 @@ RUN apt-get update && \
         tcpdump \
     && rm -rf /var/lib/apt/lists/*
 
-CMD ["bird", "-f", "-c", "/etc/bird/bird.conf"]
+CMD ["sleep", "infinity"]
