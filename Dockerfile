@@ -7,6 +7,7 @@ RUN apt-get update && \
         iputils-ping \
         traceroute \
         tcpdump \
+        iptables \
     && rm -rf /var/lib/apt/lists/*
 
 CMD ["sleep", "infinity"]
